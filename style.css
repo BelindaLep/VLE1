@@ -1,0 +1,301 @@
+@media only screen and (min-width: 950px) {
+
+    .about-h2 {
+
+        font-family: Arial, sans-serif;
+        font-weight: 200;
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding: 0px 100px;
+        color: #585858;
+        text-transform: uppercase;
+        text-align: left;
+
+    }
+
+    .about-p {
+
+        font-family: Arial, sans-serif;
+        letter-spacing: 1px;
+        padding: 0px 0px 0px 100px;
+        text-align: left;
+        color: #585858;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 350px;
+        /* Add padding for spacing if needed */
+    }
+
+    .cooks {
+        flex: 1;
+        /* Takes up 50% of the width */
+        padding: 65px 110px;
+        /* Add spacing between the elements */
+    }
+
+    .cooks img {
+        width: 100%;
+        height: 100%;
+        /* Make sure the image takes up 100% of the container width */
+    }
+
+
+    .recipes-h2 {
+        display: none;
+    }
+
+
+    hr {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+
+    }
+
+}
+
+@media only screen and (max-width: 949px) {
+
+    .about-h2 {
+
+        font-family: Arial, sans-serif;
+        font-weight: 200;
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding: 0px 30px;
+        color: #585858;
+        text-transform: uppercase;
+        text-align: left;
+
+    }
+
+    .about-p {
+
+        font-family: Arial, sans-serif;
+        letter-spacing: 1px;
+        padding: 0px 30px;
+        text-align: left;
+        color: #585858;
+
+    }
+
+    .cooks {
+        display: none;
+        /* Peida kokkade pilt mobiilivaates */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        /* Add padding for spacing if needed */
+    }
+
+}
+
+.gallery-image img {
+    width: 100%;
+}
+
+.header {
+
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    height: calc(100vh - 500px);
+    display: table;
+
+}
+
+.banner img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.header h1 {
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    margin: 0;
+    color: #585858;
+    line-height: 70px;
+    text-transform: uppercase;
+
+}
+
+.header h2 {
+
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    color: #585858;
+    text-transform: uppercase;
+
+}
+
+
+.left-link a,
+.right-link a {
+
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #585858;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+footer {
+
+    width: calc(100% - 80px);
+    padding: 15px 40px;
+    background-color: #cfcfcf;
+    margin-top: 0px;
+    overflow: hidden;
+
+}
+
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding: 20px 0px;
+
+}
+
+
+footer ul a {
+
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #585858;
+    text-decoration: none;
+
+}
+
+.footer-sm {
+
+    width: 48px;
+    float: right;
+
+}
+
+.footer-sm img {
+
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+hr {
+
+    color: #4f5663;
+    border: none;
+    height: 2px;
+    background-color: #4f5663;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    box-shadow: none;
+
+}
+
+.recipes-h2 {
+
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 0px 30px;
+    color: #585858;
+    text-transform: uppercase;
+    text-align: left;
+    justify-content: flex-start;
+
+}
+
+.gallery-image {
+
+    margin-left: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+
+}
+
+.gallery-image .container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    padding: 0px 0px;
+}
+
+.post-header {
+
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    transform: translate(-70%, -80%);
+
+}
+
+.gallery-links {
+
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+body .container {
+    border: 1px solid #585858;
+    border-bottom: none;
+}
